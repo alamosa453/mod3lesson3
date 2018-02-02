@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container-element {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container {
+    display: flex;
+    background-color: lightblue;
+    border: 1px solid white;
+    height: 200px;
+    flex: 1;
+}
+
+.greeting {
+    font-size: 50px;
+    margin: auto;
+}
+
+
+
+
+
+
+.penguin-item-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.penguin-item {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.image-grid-item {
+  border: 1px solid black;
+}

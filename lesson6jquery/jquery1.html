@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery Project</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- proj1 -->
+    <h1 class="testPage">This is my jQuery Test Page</h1>
+
+    <!-- proj2 -->
+    <div id="firstDiv"></div><br>
+
+    <div id="secondDiv"></div><br>
+
+
+
+    <script src="jquery1.js"></script>
+
+    <script>
+    // proj1
+    $(document).ready(function(){
+        $("h1").dblclick(function(){
+            $(this).css({color: 'blue'});
+        });
+    });
+    $(document).ready(function(){
+        $("h1").hover(function(){
+            $(this).css({'font-size': '26px'});
+        })
+    });
+
+
+    // proj2
+    $(document).ready(function(){
+        $("div").css({
+            'background-color': 'blue',
+            width: '200',
+            height: '200',
+            margin: '50px',
+        })
+    })
+
+
+// this code did not work.
+
+    // $(document).ready(function(){
+    //     $("#secondDiv").hover(function(){
+    //         $(this).mouseenter({'background-color': 'green'});
+    //         $(this).mouseleave({'background-color': 'blue'});
+    //     })
+    // });
+
+
+
+    
+
+    </script>
+</body>
+
+</html>

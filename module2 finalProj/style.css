@@ -1,0 +1,66 @@
+html, body{
+    margin: 0;
+    font-family: Helvetica;
+}
+header, footer{
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+
+body {
+    background: #5f5f;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+body>header, body>footer{
+    background: #61c985;
+    width: 90%;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+section header {
+    padding: 1rem 0 1rem 0;
+    font-family: sans-serif;
+    font-weight: 2rem;
+}
+
+
+.container {
+    display: inline-flex;
+    min-height: 100vh;
+    flex-direction: row;
+}
+
+.footer {
+    flex: 1;   
+}
+
+img {
+    width: 50%;
+}
+
+.image {
+    flex: 1;
+    flex-shrink: 0;
+    
+}
+
+.links {
+    display: block;
+    flex: 1;
+    flex-direction: initial;
+}
+
+.repo {
+    display: block;
+    flex: 1;
+}
